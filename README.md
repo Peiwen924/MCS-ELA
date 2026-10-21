@@ -2,8 +2,6 @@
 
 **Multi-Code-Style Supervision and Entity-Level Alignment for Generative Biomedical Named Entity Recognition**
 
-[📄 Paper](oup-authoring-template.pdf)
-
 MCS-ELA combines Python, Java, and C++ style supervision with entity-guided GRPO training and multi-style voting for biomedical named entity recognition.
 
 ---
@@ -68,9 +66,8 @@ The prediction file contains `response` and `labels`. Evaluation reports entity-
 │   │   └── run_main_experiment.sh
 │   └── tools/                  # Data preparation, training, and evaluation
 ├── ms-swift/                   # Training framework
-├── figure/
-│   └── framework.png
-└── oup-authoring-template.pdf
+└── figure/
+    └── framework.png
 ```
 
 Built on ms-swift. See its [license](ms-swift/LICENSE).

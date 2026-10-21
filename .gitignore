@@ -63,6 +63,7 @@ build/
 dist/
 
 # Local configuration and editor files
+/oup-authoring-template.pdf
 .env
 .env.*
 !.env.example
